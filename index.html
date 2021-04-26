@@ -1,0 +1,110 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+     <h1>Arrestos en la ciudad de Nueva York 2020</h1>
+
+    <img class = 'bordered' src = 'https://cdn.cnn.com/cnnnext/dam/assets/200618215642-nypd-file-full-169.jpg'>
+    </img>
+
+     <br>
+    <h3> URL: <a href="https://07mbig-seminario-asantos.stackblitz.io"> Seminario</a></h3>
+    <h3> Github: <a href="https://github.com/asantg05/07mbig-seminario-asantos"> https://github.com/asantg05/07mbig-seminario-asantos </a></h3>
+    <h3>Nombre: Andrés Santos García</h3>
+    <br>
+
+    <h2>-Introducción-</h2>
+    <p>
+      Nueva York, desde finales del siglo XIX es uno de los centros de la economía mundial. Está considerada como una ciudad global, por sus influencias a nivel mundial en los medios de comunicación, en la política, en la educación, en la arquitectura, en el entretenimiento, las artes y la moda.​ La influencia artística y cultural de la ciudad es de las más fuertes del mundo. Aunque a principios del siglo XX adquirió la fama de ser uno de los estados donde había mayor criminalidad y robos a diario, concretamente en los barrios del Bronx y Brooklyn.
+    </p>
+    <p>
+      Gracias al Departamento de Policía de Nueva York (NPYD), la tasa de criminalidad y de actuación policial en la ciudad de Nueva York ha ido disminuyendo considerablemente en los últimos años, concretamente a partir de 2017. Por ello, se quieren estudiar los datos relacionados con los arrestos que ha habido de 2018 a 2021.
+    </p>
+    <p>
+      La fuente de datos que se llevará a estudio ha sido extraída del portal de datos abiertos de Nueva York. Esta contiene una serie de propiedades, entre las más importantes: 
+      <ul>
+      <li> <b>Fecha</b> </li>
+      <li> <b>Tipo de Arresto</b>: Puede ser por multitud de razones que están definidas en su propia base de datos</li>
+      <li> <b>Barrio</b>: En Nueva York existen 5 barrios: <b>Manhattan(M), Bronx(B), Brooklyn(K), Queens(Q) y Staten Island(S)</b>.</li>
+      <li> <b>Sexo</b></li>
+      <li> <b>Raza</b></li>
+      <li> <b>Tipo de policia</b>: Existen 3 tipos principales de policia: Patrulla(0), Tránsito(1) y Vivienda(2). Entre paréntesis se indican sus códigos, es la forma que tienen de identificarse cada uno de los grupos policiales, habiendo 24 en total. 
+      </li>
+    </ul>
+    </p>
+    <p>Para ponernos en situación, estos son los barrios que componen el estado de NY, nombrados anteriormente.</p>
+  
+    <div class='tableauPlaceholder' id='viz1619375019943' style='position: relative'><noscript><a href='#'><img alt='Geolocalizacion de los barrios ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ge&#47;Geolocalizacion_16193744334130&#47;Geolocalizaciondelosbarrios&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='views&#47;Geolocalizacion_16193744334130&#47;Geolocalizaciondelosbarrios?:language=es&amp;:embed=y&amp;:display_count=y&amp;publish=yes' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ge&#47;Geolocalizacion_16193744334130&#47;Geolocalizaciondelosbarrios&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1619375019943');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='800px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+    <br>
+    <p>A continuación, se realizarán una serie de gráficas con las que se que se podrá visualizar diferentes tendencias sobre arrestos en la ciudad de Nueva York.
+  
+    <h2>-Porcentaje de arrestos en cada barrio-</h2>
+
+    <p>Tomando una muestra aleatoria de 10.000 datos, se comprueba que Manhattan es uno de los barrios que más arrestos recoge. Faltan muchos más datos por procesar debido a que en 2020 hubo más de 140.000 arrestos. La herramienta utilizada (Google Sheets) no puede procesar demasiados datos y por dicha razón aparece Manhattan como la que mayor incidencia de arrestos tiene en toda la ciudad de NY. Más adelante se verá una gráfica más representativa mediante otra herramienta de representación.</p>
+    
+    <iframe width="665" height="412" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRtPCjcbHAF9x9H5DqqLqnI6Xor4MmylCBia4SMFQibGNSCF28VZJOmLlOHnCgUkg/pubchart?oid=1189718638&amp;format=interactive"></iframe></p>
+
+    <h2>-Arrestos en Meses durante 2020-</h2>
+
+    <p>La siguiente gráfica muestra la línea temporal de arrestos durante el año de 2020. Al parecer, Enero fue el mes en el que mayor tasa de detenciones hubo. </p>
+
+    <p>Hay un pico en el mes de Mayo que puede deberse al movimiento "Black Lives Matter" y que hizo que hubiera multitud de protestas en la ciudad de Nueva York. También, hay un crecimiento progresivo de Julio a Octubre que se podría achacar a las Elecciones del Gobierno de los Estados Unidos.</p>
+
+    <div class='tableauPlaceholder' id='viz1619463554444' style='position: relative'><noscript><a href='#'><img alt='Recuento Arrestos Totales por meses ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Re&#47;RecuentoArrestosTotalesMeses&#47;RecuentoArrestosTotalespormeses&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='RecuentoArrestosTotalesMeses&#47;RecuentoArrestosTotalespormeses' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Re&#47;RecuentoArrestosTotalesMeses&#47;RecuentoArrestosTotalespormeses&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1619463554444');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='800px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+    <h2>-Arrestos por Barrios y Edad-</h2>
+
+    <p>En esta tabla sí se puede apreciar cuál es el barrio que más arrestos recoge, añadiéndole incluso los rangos de edad de los perpetradores de dicho arresto. Se concluye que la población que más arrestos ha tenido ha sido la de Brooklyn y con un rango de edad de entre 25 y 44 años. </p>
+
+    <div class='tableauPlaceholder' id='viz1619462193227' style='position: relative'><noscript><a href='#'><img alt='Arrestos por barrios y edad ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ar&#47;ArrestosPorBarriosYEdad&#47;Arrestosporbarriosyedad&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ArrestosPorBarriosYEdad&#47;Arrestosporbarriosyedad' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ar&#47;ArrestosPorBarriosYEdad&#47;Arrestosporbarriosyedad&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1619462193227');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='800px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+    <h2>-Razón de los arrestos-</h2>
+
+    <p>En la siguiente tabla se representan las 7 tipos de arrestos más comunes en la ciudad de Nueva York. Entre ellos destacan Assault, se refiere a la agresión hacia otra persona junto con su nivel de agresividad (siendo el 3 el más alto), Larceny a un hurto en vía pública y Robbery a atraco a mano armada </p>
+
+    <div class='tableauPlaceholder' id='viz1619463599324' style='position: relative'><noscript><a href='#'><img alt='Razon del Arresto ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ra&#47;RazonDelArresto&#47;RazondelArresto&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='RazonDelArresto&#47;RazondelArresto' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ra&#47;RazonDelArresto&#47;RazondelArresto&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1619463599324');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='800px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+    <h2>-Arrestos por Sexo y Edad-</h2>
+    <p>
+      En la siguiente gráfica se estudian el número de arrestos en base al sexo y edad del arrestado. Se puede observar que el número de hombres arrestados es mayor respecto al de mujeres. 
+    </p>
+    <p>Tal y como se indicó anteriormente, el rango de edad más común era de los 25 a los 44 años. Ocurre lo mismo en el sexo femenino</p>
+
+    <div class='tableauPlaceholder' id='viz1619463241634' style='position: relative'><noscript><a href='#'><img alt='Arrestos por sexo y edad ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ar&#47;ArrestosPorSexoYEdad&#47;Arrestosporsexoyedad&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ArrestosPorSexoYEdad&#47;Arrestosporsexoyedad' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ar&#47;ArrestosPorSexoYEdad&#47;Arrestosporsexoyedad&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1619463241634');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='800px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+    <h2>-Arrestos por Raza-</h2>
+
+    <p>En este tipo de representación se puede ver de una forma más ilustrativa las detenciones según la raza del arrestado, siendo la raza negra la más común. </p>
+
+    <div class='tableauPlaceholder' id='viz1619463438997' style='position: relative'><noscript><a href='#'><img alt='Arrestos por raza ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ar&#47;ArrestosPorRaza&#47;Arrestosporraza&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ArrestosPorRaza&#47;Arrestosporraza' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ar&#47;ArrestosPorRaza&#47;Arrestosporraza&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1619463438997');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='800px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+    <h2>-Conclusión-</h2>
+    <p>Una vez finalizado el presente trabajo de análisis, se llegan a las siguientes conclusiones:</p>
+    <p>
+      <ul>
+      <li>La ciudad de Nueva York cuenta con menos detenciones en verano y por tanto sería uno de los mejores momentos para visitar la ciudad.</li>
+      <li>La Policía de Nueva York deberá implicarse más en los barrios de Brooklyn y Manhattan.</li>
+    </ul>
+    </p>
+
+    <h2>-Herramientas utilizadas-</h2>
+
+    <p>
+      <ul>
+      <li><b>Google Sheets</b>: Servicio web de Google utilizado para el procesamiento de información y generación de gráficos a través de hojas de cálculo en la nube.</li>
+      <li><b>Tableau</b>: Software utilizado para la visualización de datos interactivos en un entorno empresarial o académico.</li>
+    </ul>
+    </p>
+
+    <h2>-Fuentes-</h2>
+    <ul>
+      <li><a href="https://data.cityofnewyork.us/Public-Safety/NYPD-Arrest-Data-Year-to-Date-/uip8-fykc">https://opendata.cityofnewyork.us/</a></li>
+      <li> <a href="https://www1.nyc.gov/site/nypd/bureaus/bureaus.page">https://www1.nyc.gov/site/nypd/index.page</a></li>
+    </ul>
+
+  </body>
+</html>
